@@ -1,31 +1,46 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark} from '@fortawesome/free-solid-svg-icons'
+import image1 from '../assets/avatar-1.png'
+import image2 from '../assets/avatar-2.png'
+import image3 from '../assets/avatar-3.png'
+import image4 from '../assets/avatar-4.png'
+import image5 from '../assets/icon-design.svg'
+import image6 from '../assets/icon-dev.svg'
+import image7 from '../assets/icon-app.svg'
+import image8 from '../assets/icon-photo.svg'
+import image9 from '../assets/photo-output (1).png'
+import image10 from '../assets/favicon.png'
+import image11 from '../assets/R (1).png'
+import image12 from '../assets/IMG_3885.png'
+import image13 from '../assets/OH7Yxoy.png'
+import image14 from '../assets/R.png'
+
 
 
 
 const testimonialsData = [
   // Add your testimonials data here, for example:
   {
-    avatarSrc: 'src/assets/avatar-1.png',
+    avatarSrc: image1,
     avatarAlt: "EBIZCO",
     title: "EBIZCO",
     text: "Saffi was hired as a junior developer in our team and he has always worked and learned with motivation and dedication . We were very pleased with the work done. He has a gained lot of experience and is very concerned about the needs of client.",
   },
   {
-    avatarSrc: "src/assets/avatar-2.png",
+    avatarSrc: image2,
     avatarAlt: "AR properties",
     title: "AR properties",
     text: "we wanted a website for our company and someone refer saffi to us and when we worked with him he left us amazed with his work especially the time in which he delivered.He truly is dedicated to his work. "
   },
   {
-    avatarSrc: "src/assets/avatar-3.png",
+    avatarSrc: image3,
     avatarAlt: "GRB builders",
     title: "GRB builders",
     text: "Saffi is an exceptional web developer who delivered a flawless website ahead of schedule. Their expertise, attention to detail, and clear communication made the entire process smooth and enjoyable."
   },
   {
-    avatarSrc: "src/assets/avatar-4.png",
+    avatarSrc: image4,
     avatarAlt: "StellarShopper",
     title: "StellarShopper",
     text: "Saffi transformed our e-commerce site, TrendyTreasures, into a sleek and high-performing platform. Their expertise and prompt delivery exceeded our expectations! "
@@ -83,8 +98,7 @@ const About = () => {
         <li className="service-item">
 
           <div className="service-icon-box">
-            <img src="src\assets\icon-design.svg
-            " alt="design icon" width="40"/>
+            <img src={image5} alt="design icon" width="40"/>
           </div>
 
           <div className="service-content-box">
@@ -100,7 +114,7 @@ const About = () => {
         <li className="service-item">
 
           <div className="service-icon-box">
-            <img src="src\assets\icon-dev.svg" alt="Web development icon" width="40"/>
+            <img src={image6} alt="Web development icon" width="40"/>
           </div>
 
           <div className="service-content-box">
@@ -116,7 +130,7 @@ const About = () => {
         <li className="service-item">
 
           <div className="service-icon-box">
-            <img src="src\assets\icon-app.svg" alt="mobile app icon" width="40"/>
+            <img src={image7} alt="mobile app icon" width="40"/>
           </div>
 
           <div className="service-content-box">
@@ -132,7 +146,7 @@ const About = () => {
         <li className="service-item">
 
           <div className="service-icon-box">
-            <img src="src\assets\icon-photo.svg" alt="camera icon" width="40"/>
+            <img src={image8} alt="camera icon" width="40"/>
           </div>
 
           <div className="service-content-box">
@@ -235,37 +249,37 @@ const About = () => {
 
         <li className="clients-item">
           <a href="#">
-            <img src="src\assets\photo-output.PNG" alt="client logo"/>
+            <img src={image9} alt="client logo"/>
           </a>
         </li>
 
         <li className="clients-item">
           <a href="#">
-            <img src="src\assets\favicon.ico" alt="client logo"/>
+            <img src={image10} alt="client logo"/>
           </a>
         </li>
 
         <li className="clients-item">
           <a href="#">
-            <img src="src\assets\R (1).png" alt="client logo"/>
+            <img src={image11} alt="client logo"/>
           </a>
         </li>
 
         <li className="clients-item">
           <a href="#">
-            <img src="src\assets\IMG_3885.png" alt="client logo"/>
+            <img src={image12} alt="client logo"/>
           </a>
         </li>
 
         <li className="clients-item">
           <a href="#">
-            <img src="https://i.imgur.com/OH7Yxoy.png" alt="client logo"/>
+            <img src={image13} alt="client logo"/>
           </a>
         </li>
 
         <li className="clients-item">
           <a href="#">
-            <img src="https://th.bing.com/th/id/R.e52bd428d0e821fed4d58ab6988d44c8?rik=93pJt4Ys7Aw7bg&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2016%2f08%2frandom_logo_1.png&ehk=4Su0HMlE75LqSpA67oF3OzYp%2bdhGI8eAsSe%2bCC9Qy1E%3d&risl=&pid=ImgRaw&r=0" alt="client logo"/>
+            <img src={image14} alt="client logo"/>
           </a>
         </li>
 

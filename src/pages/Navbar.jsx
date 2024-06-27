@@ -17,19 +17,19 @@ const Navbar = () => {
       </li>
 
       <li className="navbar-item">
-      <NavLink to="/saffi__portfolio/Resume" className="navbar-link" >Resume</NavLink>
+      <NavLink to="/saffi__portfolio/Resume" className={(e) => {return e.isActive? "navbar-link active": "navbar-link"}} >Resume</NavLink>
       </li>
 
       <li className="navbar-item">
-      <NavLink to="/saffi__portfolio/Portfolio" className="navbar-link" >Portfolio</NavLink>
+      <NavLink to="/saffi__portfolio/Portfolio" className={(e) => {return e.isActive? "navbar-link active": "navbar-link"}} >Portfolio</NavLink>
       </li>
 
       <li className="navbar-item">
-      <NavLink to="/saffi__portfolio/Blog" className="navbar-link" >Blog</NavLink>
+      <NavLink to="/saffi__portfolio/Blog" className={(e) => {return e.isActive? "navbar-link active": "navbar-link"}} >Blog</NavLink>
       </li>
 
       <li className="navbar-item">
-        <NavLink to="/saffi__portfolio/Contact" className="navbar-link" >Contact</NavLink>
+        <NavLink to="/saffi__portfolio/Contact" className={(e) => {return e.isActive? "navbar-link active": "navbar-link"}} >Contact</NavLink>
       </li>
 
     </ul>

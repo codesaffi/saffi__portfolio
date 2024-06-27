@@ -1,6 +1,15 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye,faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import image16 from '../assets/Screenshot 2024-06-16 180610.png'
+import image17 from '../assets/ABD72387-6C03-426E-BB37-9773357409B9.png'
+import image18 from '../assets/Screenshot 2024-06-16 180654.png'
+import image19 from '../assets/mobile.png'
+import image20 from '../assets/desktop.png'
+import image21 from '../assets/433800436_18421977916015725_2399537827878237288_n.jpg'
+import image22 from '../assets/430815918_773132618211775_2764906117747618135_n.jpg'
+import image23 from '../assets/403531577_2331201500398158_5908179178304786142_n.jpg'
+import image24 from '../assets/418771845_18406718254015725_8005164622772796732_n.jpg'
 
 
 const Portfolio = () => {
@@ -17,7 +26,7 @@ const Portfolio = () => {
       { 
         id: 1, 
         category: "web development", 
-        img: "src/assets/Screenshot 2024-06-16 180610.png",
+        img: image16,
         content: "Web Development",
         title: "finance"
      },
@@ -25,7 +34,7 @@ const Portfolio = () => {
       { 
         id: 2,
         category: "web development",
-        img: "src/assets/ABD72387-6C03-426E-BB37-9773357409B9.JPG", 
+        img: image17, 
         content: "Web Development",
         title: "orizon"
      },
@@ -33,7 +42,7 @@ const Portfolio = () => {
       { 
         id: 3, 
         category: "web development", 
-        img: "src/assets/Screenshot 2024-06-16 180654.png", 
+        img: image18, 
         content: "Web Development" ,
         title: "fundo"
     },
@@ -41,7 +50,7 @@ const Portfolio = () => {
       {
         id: 4, 
         category: "application", 
-        img: "src/assets/mobile.png", 
+        img: image19, 
         content: "Application" ,
         title: "brawhalla"
     },
@@ -49,7 +58,7 @@ const Portfolio = () => {
       {
          id: 5, 
         category: "web development", 
-        img: "src/assets/desktop.png", 
+        img: image20, 
         content: "Web Development" ,
         title: "dsm"
     },
@@ -57,7 +66,7 @@ const Portfolio = () => {
       { 
         id: 6, 
         category: "web design", 
-        img: "src/assets/433800436_18421977916015725_2399537827878237288_n.jpg", 
+        img: image21, 
         content: "Web Design" ,
         title: "metaspark"
     },
@@ -65,7 +74,7 @@ const Portfolio = () => {
       { 
         id: 7, 
         category: "web design", 
-        img: "src/assets/430815918_773132618211775_2764906117747618135_n.jpg", 
+        img: image22, 
         content: "Web Design" ,
         title: "summary"
     },
@@ -73,7 +82,7 @@ const Portfolio = () => {
       { 
         id: 8, 
         category: "web design", 
-        img: "src/assets/403531577_2331201500398158_5908179178304786142_n.jpg", 
+        img: image23, 
         content: "Web Design" ,
         title:  "task manager"
     },
@@ -81,7 +90,7 @@ const Portfolio = () => {
       { 
         id: 9, 
         category: "web design", 
-        img: "src/assets/418771845_18406718254015725_8005164622772796732_n.jpg", 
+        img: image24, 
         content: "Web Design",
         title: "arrival"
      },

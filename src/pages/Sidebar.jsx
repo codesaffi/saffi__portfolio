@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMobile, faCalendarDays,  faLocationDot, faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import image15 from '../assets/my-avatar.png'
 
 const Sidebar = () => {
 
@@ -19,7 +20,7 @@ const Sidebar = () => {
     <div className="sidebar-info">
 
       <figure className="avatar-box">
-        <img className='pp' src="src\assets\my-avatar.png" alt="Saffi Ullah" width="80"/>
+        <img className='pp' src={image15} alt="Saffi Ullah" width="80"/>
       </figure>
 
       <div className="info-content">
