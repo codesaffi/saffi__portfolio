@@ -28,7 +28,7 @@ const Portfolio = () => {
         category: "web development", 
         img: image16,
         content: "Web Development",
-        title: "finance"
+        title: "Marketing Agency"
      },
 
       { 
@@ -36,7 +36,7 @@ const Portfolio = () => {
         category: "web development",
         img: image17, 
         content: "Web Development",
-        title: "orizon"
+        title: "real estate"
      },
 
       { 
@@ -44,7 +44,7 @@ const Portfolio = () => {
         category: "web development", 
         img: image18, 
         content: "Web Development" ,
-        title: "fundo"
+        title: "real estate"
     },
 
       {
@@ -52,7 +52,7 @@ const Portfolio = () => {
         category: "application", 
         img: image19, 
         content: "Application" ,
-        title: "brawhalla"
+        title: "E-commerce"
     },
 
       {
@@ -60,7 +60,7 @@ const Portfolio = () => {
         category: "web development", 
         img: image20, 
         content: "Web Development" ,
-        title: "dsm"
+        title: "E-commerce"
     },
 
       { 
@@ -68,7 +68,7 @@ const Portfolio = () => {
         category: "web design", 
         img: image21, 
         content: "Web Design" ,
-        title: "metaspark"
+        title: "Starlink"
     },
 
       { 
@@ -76,7 +76,7 @@ const Portfolio = () => {
         category: "web design", 
         img: image22, 
         content: "Web Design" ,
-        title: "summary"
+        title: "Atmosphera"
     },
 
       { 
@@ -84,7 +84,7 @@ const Portfolio = () => {
         category: "web design", 
         img: image23, 
         content: "Web Design" ,
-        title:  "task manager"
+        title:  "Shoe shop"
     },
 
       { 
@@ -92,7 +92,7 @@ const Portfolio = () => {
         category: "web design", 
         img: image24, 
         content: "Web Design",
-        title: "arrival"
+        title: "Nuorbit"
      },
 
     ];

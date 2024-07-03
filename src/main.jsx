@@ -10,6 +10,7 @@ import Navbar from './pages/Navbar.jsx'
 import Resume from './pages/Resume.jsx'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Sidebar from './pages/Sidebar.jsx'
+import SearchBar from './pages/SearchBar.jsx'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/saffi__portfolio/Resume",
         element:  <> <Navbar /> <Resume /> </> ,
+      },
+      {
+        path: "/saffi__portfolio/article/search-bar-react",
+        element:  <> <Navbar /> <SearchBar /> </> ,
       },
     ],
   },
